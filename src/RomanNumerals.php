@@ -17,6 +17,7 @@ class RomanNumerals
         4    => 'IV',
         1    => 'I',
     ];
+
     public function fromArabic($arabic)
     {
         $roman = '';
